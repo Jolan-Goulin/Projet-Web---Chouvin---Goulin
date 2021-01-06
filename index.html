@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Find your Cocktail</title>
+        <link href="style.css" rel="stylesheet"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body topmargin="40" leftmargin="40" onLoad="main()">
+
+        <h1 id="title">Find your Cocktail !</h1>
+
+        <div class=""></div>
+
+        <div class="form">
+            <h2 id="retour à la ligne"></h2>
+            <placeholder id="selection-box">Type your ingredient : </placeholder> 
+            <input type="text" id="cocktail" value="Ex.: Lemon"> 
+            <button id="search-button"class="management-form-create" onClick="main()">Search Ingredient</button>
+            <button id="search-button"class="management-form-create" onClick="mainAl()">Search Cocktail</button>
+        </div>
+        <h2 id="retour à la ligne"></h2>
+        <div class="results">
+            <div id="result1" class="txt1">Loading..</div>
+            <div id="result2" class="txt1">Loading..</div>
+            <div id="result3" class="txt1">Loading..</div>
+        </div>
+
+    </body>
+</html>
